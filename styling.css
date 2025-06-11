@@ -1,12 +1,11 @@
-
-    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wdth,wght@0,18..144,96,300..900;1,18..144,96,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wdth,wght@0,18..144,96,300..900;1,18..144,96,300..900&display=swap');
 
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: white; 
+  color: white;
 }
 
 /* // // header styling // // //*/
@@ -41,10 +40,12 @@ a {
   padding: 5px 30px;
   margin: 0 3px;
 }
-  .login {
-    display: flex;
-    flex-wrap: wrap;
-  }
+
+.login {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .login :nth-child(2) {
   background-color: rgb(144, 55, 225);
 }
@@ -52,6 +53,7 @@ a {
 .login :nth-child(1):hover {
   border-color: rgb(118, 0, 228);
 }
+
 .login :nth-child(2):hover {
   background-color: rgb(118, 0, 228);
 }
@@ -66,6 +68,7 @@ img {
   font-size: 4rem;
   color: #fff;
 }
+
 /*\\ banner styling \\ */
 .banner {
   padding: 26px 100px;
@@ -94,7 +97,7 @@ img {
   margin: 1px 38%;
   font-weight: bold;
   font-size: 1.4rem;
-  font-family:'Times New Roman', Times, serif; 
+  font-family: 'Times New Roman', Times, serif;
   background-color: transparent;
   border: none;
   color: rgb(59, 249, 59);
@@ -198,6 +201,7 @@ img {
   font-size: .9rem;
   font-family: 'Times New Roman', Times, serif;
 }
+
 /* // .blc-future styling // */
 .blc-future {
   padding-bottom: 100px;
@@ -287,24 +291,27 @@ img {
 
 .contact-form h1 {
   margin-bottom: 20px;
-  color: #333; 
+  color: #333;
 }
 
 .contact-form input {
   width: 100%;
   padding: 12px;
   margin-bottom: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   border-radius: 6px;
   font-size: 1rem;
-  color: black; 
+  color: white;
+  background-color: rgb(29, 21, 41);
 }
 
 .contact-form textarea {
   border-radius: 8px;
-  width: 100%; 
-  padding: 12px; 
-  color: black; 
+  width: 100%;
+  padding: 12px;
+  color: white;
+  border: 1px solid #ffffff;
+  background-color: rgb(29, 21, 41);
 }
 
 .contact-form button {
@@ -391,7 +398,7 @@ footer p {
 
 .company ul,
 .support ul {
-  list-style: none; 
+  list-style: none;
   color: #005abb;
 }
 
@@ -428,6 +435,22 @@ footer p {
   opacity: 0.8;
 }
 
+/* //  //  Support Styling //  // */
+
+
+.whatsapp-support {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-support img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
 /* *************MEDIA QUERIES START HERE********** */
 
 @media (max-width: 992px) {
@@ -435,7 +458,7 @@ footer p {
     padding: 2px 30px;
   }
 
-  .logo img{
+  .logo img {
     font-size: 3rem;
     height: 1.8rem;
     width: auto;
@@ -451,6 +474,7 @@ footer p {
   .login :nth-child(2) {
     padding: 5px 10px;
   }
+
   .login {
     display: flex;
     flex-wrap: wrap;
@@ -458,15 +482,16 @@ footer p {
 
   .banner {
     padding: 8px 30px;
-    flex-direction: column; 
+    flex-direction: column;
     text-align: center;
   }
 
   .banner-content {
-    width: 80vw; 
-    margin-bottom: 30px;  
+    width: 80vw;
+    margin-bottom: 30px;
     order: 2;
   }
+
   .banner-img {
     order: 1;
   }
@@ -476,47 +501,48 @@ footer p {
   }
 
   .join-btn {
-    margin: 0 auto; 
+    margin: 0 auto;
   }
 
   .banner-img img {
-    width: 60vw; 
+    width: 60vw;
   }
 
   .clients-logo {
-    padding: 30px 100px; 
+    padding: 30px 100px;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px; 
+    gap: 30px;
   }
+
   .clients-logo img {
-      height: 3rem; 
-      width: auto;
+    height: 3rem;
+    width: auto;
   }
 
 
   .blc-uses {
-    padding: 20px 20px; 
+    padding: 20px 20px;
     grid-template-columns: 1fr 1fr;
   }
 
   .blc-uses>div {
     padding: 30px 40px;
-    margin: 4px; 
-    border-radius: 100px; 
+    margin: 4px;
+    border-radius: 100px;
   }
 
   .blc-contribute {
-    padding: 20px 60px; 
-    grid-template-columns: 1fr; 
+    padding: 20px 60px;
+    grid-template-columns: 1fr;
   }
 
   .blc-con-heading {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
   }
 
   .blc-future-data {
-    padding: 30px 100px; 
+    padding: 30px 100px;
   }
 
   .blc-future-data>h1 {
@@ -524,36 +550,36 @@ footer p {
   }
 
   .blc-future-textcard {
-    padding: 40px 100px; 
-    flex-direction: column; 
-    align-items: center; 
-    gap: 120px; 
+    padding: 40px 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
   }
 
   .contact-container {
     padding: 60px 80p;
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .image img {
-    width: 80vw; 
-    max-width: 400px; 
+    width: 80vw;
+    max-width: 400px;
     margin-bottom: 30px;
   }
 
   .contact-form {
-    width: 90vw; 
+    width: 90vw;
     max-width: 400px;
     padding: 20px;
   }
 
   footer {
-    grid-template-columns: 1fr 1fr; 
-    padding: 60px 30px; 
+    grid-template-columns: 1fr 1fr;
+    padding: 60px 30px;
     gap: 30px;
-    justify-items: start; 
+    justify-items: start;
   }
 
   .media {
@@ -561,24 +587,30 @@ footer p {
     align-items: center;
     text-align: center;
   }
+
   .media img {
-      height: 120px; 
-      width: auto;
+    height: 120px;
+    width: auto;
   }
 
-  .company, .support, .stay-updated {
-    text-align: left; 
+  .company,
+  .support,
+  .stay-updated {
+    text-align: left;
   }
+
   .input-wrapper {
-      max-width: 100%; 
+    max-width: 100%;
   }
 }
+
+
 
 /* // Small devices (phones, 768px and down)  // */
 @media (max-width: 768px) {
   header {
     padding: 10px 20px;
-    flex-direction: column; 
+    flex-direction: column;
     text-align: center;
   }
 
@@ -629,16 +661,19 @@ footer p {
   .clients {
     padding: 30px 0;
   }
+
   .clients h1 {
-      font-size: 1.8rem;
+    font-size: 1.8rem;
   }
+
   .clients p {
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
+
   .clients-logo {
     padding: 20px;
     /* flex-direction: column;  */
-    align-items: center; 
+    align-items: center;
     gap: 20px;
   }
 
@@ -646,11 +681,13 @@ footer p {
   .blc-power {
     padding-top: 20px;
   }
+
   .blc-power h1 {
-      font-size: 1.8rem;
+    font-size: 1.8rem;
   }
+
   .blc-power p {
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
 
 
@@ -662,32 +699,31 @@ footer p {
   .blc-uses>div {
     padding: 20px 30px;
     margin: 3px;
-    border-radius: 80px; 
+    border-radius: 80px;
   }
+
   .blc-uses div h1 {
-      font-size: 1.2rem;
+    font-size: 1.2rem;
   }
+
   .blc-uses div p {
-      font-size: 0.7rem;
+    font-size: 0.7rem;
   }
 
 
   .blc-contribute {
     padding: 20px;
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
 
   .blc-con-box {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
 
   .blc-con-box>div {
     display: flex;
     flex-direction: column;
     padding: 15px;/
-    
-
-
   }
 
   .blc-con-heading span {
@@ -698,8 +734,9 @@ footer p {
   .blc-con-content>p {
     font-size: 0.8rem;
   }
+
   .blc-con-box div img {
-      margin-bottom: 10px; 
+    margin-bottom: 10px;
   }
 
 
@@ -721,7 +758,7 @@ footer p {
 
   .blc-future-textcard {
     padding: 20px;
-    gap: 100px; 
+    gap: 100px;
   }
 
   .blc-textcard img {
@@ -734,9 +771,9 @@ footer p {
   }
 
   .blc-textcard article {
-    top: 150px; 
-    left: 0; 
-    width: 100%; 
+    top: 150px;
+    left: 0;
+    width: 100%;
     font-size: 0.8rem;
     padding: 10px;
   }
@@ -772,11 +809,11 @@ footer p {
 
 
   footer {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
     padding: 40px 20px;
     gap: 20px;
-    text-align: center; 
-    justify-items: center; 
+    text-align: center;
+    justify-items: center;
   }
 
   footer h1 {
@@ -790,11 +827,11 @@ footer p {
   .media-icon img {
     height: 20px;
     width: 20px;
-   }
+  }
 
   .company ul,
   .support ul {
-    padding-left: 0; 
+    padding-left: 0;
   }
 }
 
@@ -821,8 +858,9 @@ footer p {
   .blc-contribute {
     padding: 10px;
   }
+
   .blc-con-box>div {
-      padding: 10px;
+    padding: 10px;
   }
 
   .blc-future-textcard {
@@ -834,11 +872,13 @@ footer p {
     height: 150px;
     width: 180px;
   }
+
   .blc-textcard {
-      width: 180px;
+    width: 180px;
   }
+
   .blc-textcard article {
-    top: 130px; 
+    top: 130px;
     padding: 8px;
     font-size: 0.75rem;
   }
@@ -856,19 +896,3 @@ footer p {
     font-size: 0.8rem;
   }
 }
-
-/* //  //  Support Styling //  // */
-
-
-    .whatsapp-support {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 1000;
-    }
-
-    .whatsapp-support img {
-      width: 50px;
-      height: 50px;
-      cursor: pointer;
-    }
