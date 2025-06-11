@@ -239,29 +239,31 @@ img {
   top: 186px;
   left: 14px;
   width: 220px;
-  background-color: whitesmoke;
+  background-color: rgb(6, 103, 103);
   text-align: center;
   font-size: 0.9rem;
   font-family: 'Times New Roman', Times, serif;
   padding: 15px;
   border-radius: 6px;
+  color: white;
 }
 
 .blc-textcard article button {
   margin-top: 20px;
   padding: 0 3px 1px;
   background-color: transparent;
-  border: 2px solid green;
+  border: 3px solid rgb(255, 255, 255);
   border-radius: 12px;
-  color: rgb(2, 169, 2);
+  color: rgb(1, 255, 102);
   font-size: 1.2rem;
   cursor: pointer;
 }
 
 .blc-textcard article:hover {
-  background-color: #043c04;
+  background-color: rgb(1, 147, 147);
   transition: background-color 0.3s ease;
 }
+
 
 /* Contact Us Styling */
 .contact-container {
